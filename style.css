@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+}
+.navItem{
+    display: inline-block;
+    margin:auto
+}
+body{
+    color: cyan;
+    background-color: rgb(11, 11, 48);
+}
+h1{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.textContent{
+    text-align: center;
+}
