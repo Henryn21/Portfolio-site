@@ -1,20 +1,80 @@
 header{
     text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
 }
 .navItem{
     display: inline-block;
-    margin:auto
+    margin:auto;
+    padding:5px;
 }
 body{
-    color: cyan;
-    background-color: rgb(11, 11, 48);
+    color: rgb(1, 228, 228);
+    background-color: rgb(9, 9, 37);
+    font-family: sans-serif;
 }
 h1{
     color: whitesmoke;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 40px;
     text-align: center;
 }
 .textContent{
     text-align: center;
+}
+.infoBlock{
+    padding-bottom: 100px;
+    text-align: center;
+}
+#hi{
+    text-shadow: 4px 3px rgb(0, 85, 85);
+}
+.cyanText{
+    color: rgb(1, 228, 228);
+}
+.whiteText{
+    color: white;
+}
+.button{
+    background-color: rgb(9, 9, 37);
+    border-color: rgb(1, 228, 228);
+    border-radius: 25px;
+    color:rgb(1, 228, 228);
+    padding: 10px 20px;
+    text-align: center;
+}
+#technologies{
+    color: white;
+    word-spacing: 10px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+#italicLine{
+    font-style: italic;
+}
+#techUsed{
+    color: white;
+    font-weight: bold;
+}
+#projectTitle{
+    color: whitesmoke;
+    font-weight:bold;
+    /* text-transform:uppercase; */
+    text-transform:capitalize;
+}
+#screenShot{
+    width:300px;
+}
+#contactForm{
+}
+.formInput{
+    background-color: rgb(9, 9, 37);
+    border-color: aqua;
+    border-style: dotted;
+    border-width: thin;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
 }

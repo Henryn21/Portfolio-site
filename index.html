@@ -11,35 +11,46 @@
         <p class="navItem">Projects</p>
         <p class="navItem">Contact</p>
     </header>
-    <div id="greeting">
-        <h1>Hi, I'm Henry</h1>
-        <p class="textContent">I'm a web developer from Seattle, currently focusing on front-end, with a goal to become full-stack developer. Check out some of my projects down below. Currently looking for an internship or an entry level position.</p>
-        <button id="resumeButton">Resume</button>
+    <div id="greeting" class="infoBlock">
+        <h1 id="hi"><span class="cyanText">Hi, I'm</span> Henry</h1>
+        <p class="textContent">I'm a web developer from Seattle, currently focusing on front-end, with a goal to become full-stack developer. Check out some of my projects down below. Currently looking for an <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
+        <button class="button">Resume</button>
     </div>
-    <div id="skills">
+    <div id="skills" class="infoBlock">
         <h1>WHAT DO I USE?</h1>
         <div class="textContent">
             <p>I have experience with the following tools & technologies:</p>
-            <p>HTML CSS JavaScript React SASS Git</p>
+            <p id="technologies">HTML CSS JavaScript<br><br>React SASS Git</p>
         </div>
     </div>
-    <div id="projects">
+    <div id="projects" class="infoBlock">
         <h1>SOME OF MY PROJECTS</h1>
-        <p class="textContent">Some of the projects I have created so far</p>
+        <p class="textContent">Some of the projects I have created so far:</p>
         <div id="projectDiv">
-            <button id="leftButton"></button>
-            <button id="rightButton"></button>
-            <img>
+            <p id="projectTitle">Taco restaurant website</p>
+            <button id="leftButton"><</button>
+            <img src="images/taco.PNG" id="screenShot">
+            <button id="rightButton">></button>
+            <p id="italicLine">Created with: <span id="techUsed">HTML, CSS, JavaScript, Google Places API</span></p>
+            <p id="projectDescription">A recreated copy of a local taco restaurant's website</p>
+            <button class="button">DEMO</button>
+            <button class="button">CODE</button>
         </div>
     </div>
-    <div id="contact">
+    <div id="contact" class="infoBlock">
         <h1>CONTACT</h1>
-        <p class="textContent">If you liked some of my projects and the work I've done so far, please feel free to contact me. I'm currently looking for internship or an entry level position.</p>
-        <form>
-
+        <p class="textContent">If you liked some of my projects and the work I've done so far, please feel free to contact me. I'm currently looking for <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
+        <form id="contactForm">
+            <label for="name">Your name</label><br>
+            <input id="name" class="formInput"><br>
+            <label for="subject">Subject</label><br>
+            <input id="subject" class="formInput"><br>
+            <label for="email">Email address</label><br>
+            <input id="email" class="formInput"><br>
+            <label for="message">Message</label><br>
+            <input id="message" class="formInput"><br>
         </form>
         <footer>
-            
         </footer>
     </div>
 </body>
