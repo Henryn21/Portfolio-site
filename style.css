@@ -67,8 +67,11 @@ h1{
     width:300px;
 }
 #contactForm{
+    margin: auto;
+    width:300px;
 }
 .formInput{
+    color: white ;
     background-color: rgb(9, 9, 37);
     border-color: aqua;
     border-style: dotted;
@@ -76,4 +79,11 @@ h1{
     border-top: none;
     border-left: none;
     border-right: none;
+    width: 100%;
+}
+label{
+    float: left;
+}
+#message{
+    height: 100px;
 }

@@ -30,9 +30,9 @@
         <p class="textContent">Some of the projects I have created so far:</p>
         <div id="projectDiv">
             <p id="projectTitle">Taco restaurant website</p>
-            <button id="leftButton"><</button>
+            <button id="leftButton" value="left"><</button>
             <img src="images/taco.PNG" id="screenShot">
-            <button id="rightButton">></button>
+            <button id="rightButton" value="right">></button>
             <p id="italicLine">Created with: <span id="techUsed">HTML, CSS, JavaScript, Google Places API</span></p>
             <p id="projectDescription">A recreated copy of a local taco restaurant's website</p>
             <button class="button">DEMO</button>
@@ -50,10 +50,12 @@
             <label for="email">Email address</label><br>
             <input id="email" class="formInput"><br>
             <label for="message">Message</label><br>
-            <input id="message" class="formInput"><br>
+            <textarea id="message" class="formInput"></textarea><br>
+            <input type="submit" value="submit" id="submitButton" class="button">
         </form>
         <footer>
         </footer>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
