@@ -10,8 +10,10 @@ header{
 }
 body{
     color: rgb(1, 228, 228);
+    /* color:#00ecf0; */
     background-color: rgb(9, 9, 37);
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h1{
     color: whitesmoke;
@@ -44,6 +46,22 @@ h1{
     padding: 10px 20px;
     text-align: center;
 }
+#leftButton{
+    color: rgb(1, 228, 228);
+    background-color: rgb(9, 9, 37);
+    border: none;
+    font-size: 20px;
+    /* display: none; */
+}
+#rightButton{
+    /* position:absolute; */
+    color: rgb(1, 228, 228);
+    background-color: rgb(9, 9, 37);
+    border: none;
+    font-size: 20px;
+    /* display: none; */
+}
+
 #technologies{
     color: white;
     word-spacing: 10px;
@@ -65,6 +83,18 @@ h1{
 }
 #screenShot{
     width:300px;
+}
+.projNavButton{
+    background-color: rgb(1, 228, 228);
+    border-color: rgb(1, 228, 228);
+    border-radius:20%;
+    height: 8px;
+    width: 30px;
+}
+#gHL{
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
 }
 #contactForm{
     margin: auto;

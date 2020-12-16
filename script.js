@@ -45,6 +45,7 @@ function shiftIndex(direction){
     }
     if(direction=="right"){
         cardIndex+=1;
+        //if greater than list length, set to 0
         if(cardIndex>projectList.length-1){
             cardIndex=0;
         }
@@ -56,8 +57,15 @@ let leftButton=document.querySelector("#leftButton");
 let rightButton=document.querySelector("#rightButton");
 leftButton.addEventListener("click", function(){shiftIndex("left");});
 rightButton.addEventListener("click", function(){shiftIndex("right");});
-// leftButton.onclick=shiftIndex("left");  
-// rightButton.onclick=shiftIndex("right");  
+//buttons for mobile (lazy fix while 2 projects exist)
+let leftMobileButton=document.querySelector("#project1"); 
+let rightMobileButton=document.querySelector("#project2");
+leftMobileButton.addEventListener("click", function(){
+    shiftIndex("left");
+});
+rightMobileButton.addEventListener("click", function(){
+    shiftIndex("right");
+});
 //form 
 let name=document.querySelector("#name");
 let subject=document.querySelector("#subject");
