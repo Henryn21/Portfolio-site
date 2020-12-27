@@ -117,3 +117,7 @@ label{
 #message{
     height: 100px;
 }
+a{
+    color:inherit;
+    text-decoration: inherit;
+}
