@@ -46,21 +46,7 @@ h1{
     padding: 10px 20px;
     text-align: center;
 }
-#leftButton{
-    color: rgb(1, 228, 228);
-    background-color: rgb(9, 9, 37);
-    border: none;
-    font-size: 20px;
-    /* display: none; */
-}
-#rightButton{
-    /* position:absolute; */
-    color: rgb(1, 228, 228);
-    background-color: rgb(9, 9, 37);
-    border: none;
-    font-size: 20px;
-    /* display: none; */
-}
+
 
 #technologies{
     color: white;

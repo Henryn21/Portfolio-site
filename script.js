@@ -52,11 +52,7 @@ function shiftIndex(direction){
         showCard(cardIndex);
     }
 }
-//add listner to both buttons
-let leftButton=document.querySelector("#leftButton"); 
-let rightButton=document.querySelector("#rightButton");
-leftButton.addEventListener("click", function(){shiftIndex("left");});
-rightButton.addEventListener("click", function(){shiftIndex("right");});
+
 //buttons for mobile (lazy fix while 2 projects exist)
 let leftMobileButton=document.querySelector("#project1"); 
 let rightMobileButton=document.querySelector("#project2");
