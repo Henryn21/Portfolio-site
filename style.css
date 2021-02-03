@@ -119,7 +119,7 @@ label{
 }
 
 /*desktop width*/
-@media only screen and (min-width:400px){
+@media only screen and (min-width:600px){
     #bodyWidth{
         width:60%;
         max-width: 800px;
