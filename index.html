@@ -7,57 +7,69 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <!--IN PROGRESS WARNING remove-->
-        <h1>WEBSITE UNDER CONSTRUCTION</h1>
-        <p class="navItem">Projects</p>
-        <p class="navItem">Contact</p>
-    </header>
-    <div id="greeting" class="infoBlock">
-        <h1 id="hi"><span class="cyanText">Hi, I'm</span> Henry</h1>
-        <p class="textContent">I'm a web developer from Seattle, currently focusing on front-end, with a goal to become a full-stack developer. Check out some of my projects down below. I'm currently looking for an <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
-        <button class="button">Resume</button>
-    </div>
-    <div id="skills" class="infoBlock">
-        <h1>WHAT DO I USE?</h1>
-        <div class="textContent">
-            <p>I have experience with the following tools & technologies:</p>
-            <p id="technologies">HTML CSS JavaScript<br><br>React SASS Git</p>
+    <div id="bodyWidth">
+        <header>
+            <!--IN PROGRESS WARNING remove-->
+            <h1>WEBSITE UNDER CONSTRUCTION</h1>
+            <p class="navItem"><a href="#projects">Projects</a></p>
+            <p class="navItem"><a href="#contact">Contact</a></p>
+        </header>
+        <div id="greeting" class="infoBlock">
+            <h1 id="hi"><span class="cyanText">Hi, I'm</span> Henry</h1>
+            <p class="textContent">I'm a web developer from Seattle, currently focusing on front-end, with a goal to become a full-stack developer. Check out some of my projects down below. I'm currently looking for an <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
+            <button class="button">Resume</button>
         </div>
-    </div>
-    <div id="projects" class="infoBlock">
-        <h1>SOME OF MY PROJECTS</h1>
-        <p class="textContent">Some of the projects I have created so far:</p>
-        <div id="projectDiv">
-            <p id="projectTitle">Taco restaurant website</p>
-            <img src="images/taco.PNG" id="screenShot">
-            <p id="italicLine">Created with: <span id="techUsed">HTML, CSS, JavaScript, Google Places API</span></p>
-            <p id="projectDescription">A recreated copy of a local taco restaurant's website</p>
-            <button class="button">DEMO</button>
-            <button class="button">CODE</button>
-            <div id="projectNav">
-                <button id="project1" class="projNavButton"></button>
-                <button id="project2" class="projNavButton"></button>
+        <div id="skills" class="infoBlock">
+            <h1>WHAT DO I USE?</h1>
+            <div class="textContent">
+                <p>I have experience with the following tools & technologies:</p>
+                <!-- <p id="technologies">HTML CSS JavaScript<br><br>React SASS Git</p> -->
+                <ul id="technologies">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>SASS</li>
+                    <li>Git</li>
+                </ul>
             </div>
-            <p id="githubMessage">Be sure to check out my <a href="https://github.com/Henryn21" id="gHL">GitHub</a> profile for more projects.</p>
         </div>
-    </div>
-    <div id="contact" class="infoBlock">
-        <h1>CONTACT</h1>
-        <p class="textContent">If you liked some of my projects and the work I've done so far, please feel free to contact me. I'm currently looking for <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
-        <form id="contactForm">
-            <label for="name">Your name</label><br>
-            <input id="name" class="formInput"><br>
-            <label for="subject">Subject</label><br>
-            <input id="subject" class="formInput"><br>
-            <label for="email">Email address</label><br>
-            <input id="email" class="formInput"><br>
-            <label for="message">Message</label><br>
-            <textarea id="message" class="formInput"></textarea><br>
-            <input type="submit" value="submit" id="submitButton" class="button">
-        </form>
-        <footer>
-        </footer>
+        <div id="projects" class="infoBlock">
+            <h1>SOME OF MY PROJECTS</h1>
+            <p class="textContent">Some of the projects I have created so far:</p>
+            <div id="projectNav">
+                <button id="project1" class="projNavButton">1</button>
+                <button id="project2" class="projNavButton">2</button>
+                <!-- <button id="project2" class="projNavButton">3</button> -->
+            </div>
+            <div id="projectDiv">
+                <p id="projectTitle">Taco restaurant website</p>
+                <img src="images/taco.PNG" id="screenShot">
+                <p id="italicLine">Created with: <span id="techUsed">HTML, CSS, JavaScript, Google Places API</span></p>
+                <p id="projectDescription">A recreated copy of a local taco restaurant's website</p>
+                <button class="button">DEMO</button>
+                <button class="button">CODE</button>
+                <p id="githubMessage">Be sure to check out my <a href="https://github.com/Henryn21" id="gHL">GitHub</a> profile for more projects.</p>
+            </div>
+        </div>
+        <div id="contact" class="infoBlock">
+            <h1>CONTACT</h1>
+            <p class="textContent">If you liked some of my projects and the work I've done so far, please feel free to contact me. I'm currently looking for <span class="whiteText">internship</span> or an <span class="whiteText">entry</span> level position.</p>
+            <p>henrytnguyendev@gmail.com</p>
+            <!-- <form id="contactForm">
+                <label for="name">Your name</label><br>
+                <input id="name" class="formInput"><br>
+                <label for="subject">Subject</label><br>
+                <input id="subject" class="formInput"><br>
+                <label for="email">Email address</label><br>
+                <input id="email" class="formInput"><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" class="formInput"></textarea><br>
+                <input type="submit" value="submit" id="submitButton" class="button">
+            </form> -->
+            <footer>
+            </footer>
+        </div>
     </div>
 </body>
 <script src="script.js"></script>

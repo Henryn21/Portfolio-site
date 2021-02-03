@@ -3,6 +3,10 @@ header{
     padding: 10px;
     padding-bottom: 40px;
 }
+a{
+    text-decoration: none;
+    color:inherit;
+}
 .navItem{
     display: inline-block;
     margin:auto;
@@ -53,6 +57,17 @@ h1{
     word-spacing: 10px;
     padding-top: 40px;
     font-size: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 60px;
+    row-gap: 10px;
+    justify-content: center;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
 }
 #italicLine{
     font-style: italic;
@@ -70,21 +85,20 @@ h1{
 #screenShot{
     width:300px;
 }
+#projectNav{
+    padding:10px;
+}
 .projNavButton{
-    background-color: rgb(1, 228, 228);
+    background-color: rgb(9, 9, 37);
     border-color: rgb(1, 228, 228);
     border-radius:20%;
-    height: 8px;
     width: 30px;
+    color:white;
 }
 #gHL{
     color: white;
     font-style: italic;
     text-decoration: underline;
-}
-#contactForm{
-    margin: auto;
-    width:300px;
 }
 .formInput{
     color: white ;
@@ -102,4 +116,19 @@ label{
 }
 #message{
     height: 100px;
+}
+
+/*desktop width*/
+@media only screen and (min-width:400px){
+    #bodyWidth{
+        width:60%;
+        max-width: 800px;
+        margin: auto;
+    }
+    .infoBlock{
+        padding-bottom: 300px;
+    }
+    h1{
+      font-size: 50px;
+    }
 }
