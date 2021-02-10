@@ -92,7 +92,7 @@ ul, li{
     background-color: rgb(9, 9, 37);
     border-color: rgb(1, 228, 228);
     border-radius:20%;
-    width: 30px;
+    /* width: 30px; */
     color:white;
 }
 #gHL{
@@ -121,7 +121,7 @@ label{
 /*desktop width*/
 @media only screen and (min-width:600px){
     #bodyWidth{
-        width:60%;
+        width:70%;
         max-width: 800px;
         margin: auto;
     }
